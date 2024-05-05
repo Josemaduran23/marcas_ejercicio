@@ -1,0 +1,136 @@
+body{
+    color: #6E6E6E;
+}
+
+
+.seccion_inicio{
+    background-color: #d9d9d9;
+    height: 100vh;
+    padding:0 100px;
+    gap: 200px;
+}
+
+.cabecera{
+   display: flex; 
+   justify-content: space-between;
+   align-items: end;
+}
+
+.logo{
+    display: flex;
+    display: end;
+    
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px; 
+}
+
+.menu a:hover{
+    color: rgb(0,195 ,255 );
+    font-weight: bold;    
+}
+
+
+.logo{
+    color: rgb(0,195 ,255 );
+}
+
+.logo strong{
+    color: #6E6E6E;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.botones{
+    background-color: rgb(0,195 ,255 );
+    color: white;
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.tiutlo h1{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.tiutlo h2{
+    font-size: 30px;
+}
+
+
+.seccion_cursos{
+    padding: 100px;
+}
+
+.seccion_cursos h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 300px);
+    background-color: lavender;
+    border: 4px solid red;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    align-items: end;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.cards div:nth-child(1){
+    grid-column:span 2;
+    grid-row:span 2;
+    background-image: url(file:///C:/Users/USUARIO/OneDrive/Escritorio/marcas/T%C3%89CNICO%20SUPERIOR%20EN%20MARKETING%20Y%20PUBLICIDAD%202.png);
+}
+
+
+.cards div:nth-child(2){
+    grid-row:span 2;
+    background-image: url(file:///C:/Users/USUARIO/OneDrive/Escritorio/marcas/T%C3%89CNICO%20SUPERIOR%20EN%20MARKETING%20Y%20PUBLICIDAD%203.png);
+}
+
+
+.cards div:nth-child(3){
+    grid-column:span 2;
+    background-image: url(file:///C:/Users/USUARIO/OneDrive/Escritorio/marcas/T%C3%89CNICO%20SUPERIOR%20EN%20MARKETING%20Y%20PUBLICIDAD%204.png);
+}
+
+
+.cards div:nth-child(4){
+    background-image: url(file:///C:/Users/USUARIO/OneDrive/Escritorio/marcas/T%C3%89CNICO%20SUPERIOR%20EN%20MARKETING%20Y%20PUBLICIDAD%209.png);
+}
+
+
+.cards div:nth-child(5){
+    background-image: url(file:///C:/Users/USUARIO/OneDrive/Escritorio/marcas/T%C3%89CNICO%20SUPERIOR%20EN%20MARKETING%20Y%20PUBLICIDAD%207.png);
+}
+
+
+.cards div:nth-child(6){
+    grid-column:span 2;
+    background-image: url(file:///C:/Users/USUARIO/OneDrive/Escritorio/marcas/T%C3%89CNICO%20SUPERIOR%20EN%20MARKETING%20Y%20PUBLICIDAD%208.png);
+}
